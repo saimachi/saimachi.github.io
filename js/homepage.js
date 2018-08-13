@@ -1,6 +1,6 @@
 $(document).ready(function() {
     if ($('#aopsun').length > 0 ) {
-        contactScript('forcontact');
+        contactScript();
     }
 });
 
@@ -14,5 +14,8 @@ function send_form() {
      messagingSenderId: "762392894866"}
     firebase.initializeApp(config);
     var b = firebase.database().ref("messages");
-    var c = $("#name").val();
+    $("#aopsun").submit(function(a) { $(this), console.log("Submit to Firebase");
+    var c = $("#AOPS_UN").val();
+    return b.push(c)
+}
      
