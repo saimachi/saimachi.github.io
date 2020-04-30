@@ -1,3 +1,6 @@
 theme: jekyll-theme-slate
 title: Sai Machiraju's Portfolio
-discription: A centralized location to find my articles, programming projects, and perspectives.
+description: A centralized location to find my articles, programming projects, and perspectives.
+baseurl: /saimachi.github.io
+github:
+  is_project_page: false
